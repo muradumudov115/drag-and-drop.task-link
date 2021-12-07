@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Darg and Drop</title>
+</head>
+<body>
+    <div class="gfg">P125</div>
+    <p> Drag and Drop-task </p>
+  
+    <div class="div1" 
+         ondrop="dragDrop(event)" 
+         ondragover="allowDrop(event)"> 
+     <img id="drag1" 
+          src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/Geek_logi_-low_res.png" 
+          draggable="true" 
+          ondragstart="dragStart(event)" 
+          width="220" 
+          height="70">
+       </div>
+    <br>
+    <div class="div1" 
+         ondrop="dragDrop(event)" 
+         ondragover="allowDrop(event)">
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>
